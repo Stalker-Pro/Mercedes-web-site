@@ -1,0 +1,57 @@
+.header{
+  position: relative;
+  background-color: black;
+  height: 70px;
+  padding: 15px 35px;
+
+  font-family: "Cormorant Garamond", serif;
+  font-weight: bold;
+  font-style: normal;
+}
+
+.navigation{
+  display: flex;
+  padding-top: 12px;
+}
+
+.nav-left{
+  display: flex;
+  gap: 30px;
+  margin-right: auto;
+}
+
+.nav-right{
+  display: flex;
+  gap: 30px;
+  flex-direction: row;
+}
+
+.inher-btn{
+  background: transparent;
+  border: none;
+  color: inherit;
+  
+  font-family: inherit;
+  font-weight: inherit;
+  font-style:inherit;
+  font-size: inherit;
+  cursor: pointer;
+
+  transition: 0.5s;
+}
+
+.inher-btn:hover{
+  color: rgb(255, 255, 255);
+  transition: 0.25s;
+  transition-timing-function: cubic-bezier(.34,1.1,.4,.43)
+}
+
+
+
+.mercedes-brand-image{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  translate: -50% -50%;
+  height: 38px;
+}
