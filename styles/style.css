@@ -41,7 +41,7 @@
 }
 
 .inher-btn:hover{
-  color: rgb(255, 255, 255);
+  color: white;
   transition: 0.25s;
   transition-timing-function: cubic-bezier(.34,1.1,.4,.43)
 }
